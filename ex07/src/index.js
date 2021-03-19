@@ -23,7 +23,6 @@ var collection = {
         album: "ABBA Gold"
     }
 };
-
 var oldCollection = JSON.parse(JSON.stringify(collection));
 
 function updateRecords(object, id, prop, value) {
