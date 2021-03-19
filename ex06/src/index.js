@@ -10,8 +10,8 @@ function myNes() {
             }
         }
     };
-   var gloveBox = myStorage.car["inside"]["glove box"];
-    return gloveBox ;
+   var gloveBoxContents = myStorage.car["inside"]["glove box"];
+    return gloveBoxContents ;
 }
 console.log(myNes());
 module.exports = myNes;
