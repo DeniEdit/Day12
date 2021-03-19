@@ -5,6 +5,8 @@ var myPetsArray = [
             "Cat", 
             "Bird"
         ],
+    },
+    { 
         name: [
             "Pujdo",
             "Maca",
@@ -13,9 +15,8 @@ var myPetsArray = [
     }  
 ];
 function myPetsFunction(pets) {
-    var nameValue = pets["name"];
-    return nameValue;
+    return pets[1].name[1];
 }
-console.log(myPetsFunction(pets));
+console.log(myPetsFunction(myPetsArray));
 module.exports = myPetsFunction;
 module.exports.myPets = myPetsArray;
